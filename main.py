@@ -23,10 +23,6 @@ for pages in range(1, 31):
     imgs_links = []
     a = []
 
-    coluna1 = []
-    coluna2 = []
-    coluna3 = []
-
     # Obtém o titulo
     for i in soup.find_all("a", class_="meta-title-link"):
         texto_puro = i.getText()
